@@ -1,6 +1,6 @@
 # One Act Records to Rowboat Music Compatibility Scripts
 
-This is a set of compability scripts that aim to preserve existing URLs for a site transitioning from One Act Records to Rowboat Music.
+This is a set of compability scripts that aim to preserve existing URLs for a site transitioning from [One Act Records](https://github.com/jack126guy/oneactrecords) to [Rowboat Music](https://github.com/jack126guy/rowboat-music).
 
 In particular:
 
