@@ -6,6 +6,6 @@ if (!empty($_GET['r'])) {
 	header('Location: ' . $baseLocation . 'releases/' . rawurlencode($_GET['r']) . '/');
 } else {
 	header('HTTP/1.1 302 Found');
-	header('Location: ' . $baseLocation);
+	header('Location: ' . $baseLocation . 'releases/');
 }
 ?>
