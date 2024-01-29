@@ -4,7 +4,7 @@ This is a set of compability scripts that aim to preserve existing URLs for a si
 
 In particular:
 
-* `https://example.com/?r=[release]` and `https://example.com/release.php?r=[release]` are redirected to `https://example.com/release/[release]/`
+* `https://example.com/?r=[release]` and `https://example.com/release.php?r=[release]` are redirected to `https://example.com/releases/[release]/`
 * `https://example.com/release.php` is redirected to `https://example.com/releases/` (in One Act Records this is a 404 error but this has been changed to align with the WIP Archive extension, in which `https://example.com/wipa/wips.php` redirects to `https://example.com/wipa/` with no release name)
 * `https://example.com/wipa/wips.php?r=[release]` is redirected to `https://example.com/releases/[release]/#ref-list-wips`
 * `https://example.com/wipa/wips.php` is redirected to `https://example.com/wipa/`
